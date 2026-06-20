@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FitZone Fitness Studio - Premium gym in Pune, Maharashtra. Start your fitness journey with expert trainers, modern equipment, and customized workout plans. Book a free trial today.">
+    <title>FitZone Fitness Studio | Transform Your Body, Build Your Strength</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar-container">
+        <div class="navbar-wrapper container">
+            <a href="#home" class="logo">
+                <span>FIT</span>ZONE<span class="dot">.</span>
+            </a>
+            
+            <nav class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#plans" class="nav-link">Plans</a>
+                <a href="#trainers" class="nav-link">Trainers</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-primary btn-nav">Book Free Trial</a>
+                <button class="mobile-toggle" aria-label="Toggle mobile menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-content">
+            <div class="mobile-menu-header">
+                <a href="#home" class="logo mobile-logo">
+                    <span>FIT</span>ZONE<span class="dot">.</span>
+                </a>
+                <button class="mobile-close" aria-label="Close mobile menu">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <nav class="mobile-nav-links">
+                <a href="#home" class="mobile-nav-link">Home</a>
+                <a href="#about" class="mobile-nav-link">About</a>
+                <a href="#services" class="mobile-nav-link">Services</a>
+                <a href="#plans" class="mobile-nav-link">Plans</a>
+                <a href="#trainers" class="mobile-nav-link">Trainers</a>
+                <a href="#testimonials" class="mobile-nav-link">Testimonials</a>
+                <a href="#contact" class="mobile-nav-link">Contact</a>
+            </nav>
+            <div class="mobile-menu-footer">
+                <a href="#contact" class="btn btn-primary btn-block mobile-cta">Book Free Trial</a>
+                <div class="mobile-socials">
+                    <a href="https://wa.me/919876543210" target="_blank" class="social-icon whatsapp-color"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-glow-1"></div>
+        <div class="hero-glow-2"></div>
+        
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge-container fade-in-up">
+                    <span class="badge"><span class="badge-dot"></span>WELCOME TO FITZONE</span>
+                </div>
+                <h1 class="hero-title fade-in-up">
+                    Transform Your Body.<br>
+                    <span class="text-accent-gradient">Build Your Strength.</span>
+                </h1>
+                <p class="hero-subtitle fade-in-up">
+                    Join FitZone Fitness Studio and start your fitness journey with expert trainers, modern equipment, and result-focused workout plans.
+                </p>
+                <div class="hero-ctas fade-in-up">
+                    <a href="#contact" class="btn btn-primary btn-glow">Book Free Trial</a>
+                    <a href="#plans" class="btn btn-outline">Explore Plans</a>
+                </div>
+                
+                <!-- Gym Stats -->
+                <div class="hero-stats fade-in-up">
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Active Members</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">12+</span>
+                        <span class="stat-label">Certified Trainers</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Personal Support</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <a href="#about" aria-label="Scroll down">
+                <span class="mouse-icon">
+                    <span class="wheel"></span>
+                </span>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">About FitZone</span>
+                <h2 class="section-title">Why Choose Us?</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-content">
+                    <h3 class="about-tagline">Discipline. Dedication. Community.</h3>
+                    <p class="about-text">
+                        FitZone Fitness Studio is a modern fitness space designed for people who want real results. Whether your goal is weight loss, strength building, muscle gain, or overall fitness, our expert trainers guide you with structured workout plans and personal attention.
+                    </p>
+                    <p class="about-text">
+                        We believe that fitness should be accessible, exciting, and empowering. Our community is built on mutual support, motivating atmosphere, and relentless drive for self-improvement.
+                    </p>
+                    <div class="about-cta-container">
+                        <a href="#contact" class="btn btn-primary">Start Your Transformation</a>
+                    </div>
+                </div>
+
+                <div class="about-cards-grid">
+                    <div class="about-card">
+                        <div class="about-card-icon">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <h4 class="about-card-title">Certified Trainers</h4>
+                        <p class="about-card-desc">Learn from experienced fitness experts who personalize exercises for your body type and goals.</p>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="about-card-icon">
+                            <i class="fa-solid fa-dumbbell"></i>
+                        </div>
+                        <h4 class="about-card-title">Modern Equipment</h4>
+                        <p class="about-card-desc">Train with top-tier, bio-mechanically optimized strength and conditioning machines.</p>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="about-card-icon">
+                            <i class="fa-solid fa-user-check"></i>
+                        </div>
+                        <h4 class="about-card-title">Personal Training</h4>
+                        <p class="about-card-desc">Get customized workout routines and one-on-one coaching to accelerate your progress.</p>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="about-card-icon">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+                        <h4 class="about-card-title">Motivating Space</h4>
+                        <p class="about-card-desc">Immerse yourself in a friendly, high-energy environment designed to keep you focused.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section section-padding bg-dark-secondary">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Our Offerings</span>
+                <h2 class="section-title">Specialized Programs</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service Card 1 -->
+                <div class="service-card">
+                    <div class="service-card-glow"></div>
+                    <div class="service-icon-container">
+                        <i class="fa-solid fa-dumbbell"></i>
+                    </div>
+                    <h3 class="service-title">Strength Training</h3>
+                    <p class="service-desc">
+                        Build raw power, increase bone density, and sculpt your muscles with barbell compound lifts, high-intensity resistance training, and progressive overloading.
+                    </p>
+                    <a href="#contact" class="service-link">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="service-card">
+                    <div class="service-card-glow"></div>
+                    <div class="service-icon-container">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                    <h3 class="service-title">Weight Loss Program</h3>
+                    <p class="service-desc">
+                        Torch calories, boost metabolic rate, and lose fat effectively through dynamic cardio intervals, HIIT workouts, and active metabolic conditioning classes.
+                    </p>
+                    <a href="#contact" class="service-link">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="service-card">
+                    <div class="service-card-glow"></div>
+                    <div class="service-icon-container">
+                        <i class="fa-solid fa-user-check"></i>
+                    </div>
+                    <h3 class="service-title">Personal Training</h3>
+                    <p class="service-desc">
+                        Work one-on-one with a dedicated trainer to achieve goals quickly. Perfect for beginners or advanced athletes looking for meticulous posture correction.
+                    </p>
+                    <a href="#contact" class="service-link">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="service-card">
+                    <div class="service-card-glow"></div>
+                    <div class="service-icon-container">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <h3 class="service-title">Group Fitness Sessions</h3>
+                    <p class="service-desc">
+                        Stay motivated with energetic group workouts including circuit training, aerobics, stretching, and cross-fit routines guided by energetic instructors.
+                    </p>
+                    <a href="#contact" class="service-link">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Plans Section -->
+    <section id="plans" class="plans-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Membership Plans</span>
+                <h2 class="section-title">Affordable Subscriptions</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="plans-grid">
+                <!-- Basic Plan -->
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3 class="plan-name">Basic Plan</h3>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">999</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fa-solid fa-check feature-check"></i> Full gym access</li>
+                        <li><i class="fa-solid fa-check feature-check"></i> Locker & shower support</li>
+                        <li><i class="fa-solid fa-check feature-check"></i> Basic workout guidance</li>
+                        <li class="disabled"><i class="fa-solid fa-xmark feature-unsupported"></i> Personal trainer guidance</li>
+                        <li class="disabled"><i class="fa-solid fa-xmark feature-unsupported"></i> Customized diet suggestions</li>
+                    </ul>
+                    <div class="plan-footer">
+                        <a href="#contact" class="btn btn-outline btn-block select-plan-btn" data-plan="Basic Plan">Choose Plan</a>
+                    </div>
+                </div>
+
+                <!-- Standard Plan (Highlighted) -->
+                <div class="plan-card standard-highlight">
+                    <div class="popular-tag">MOST POPULAR</div>
+                    <div class="plan-header">
+                        <h3 class="plan-name">Standard Plan</h3>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">1,999</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fa-solid fa-check feature-check"></i> Full gym access</li>
+                        <li><i class="fa-solid fa-check feature-check"></i> Locker & shower support</li>
+                        <li><i class="fa-solid fa-check feature-check"></i> Personal trainer guidance</li>
+                        <li><i class="fa-solid fa-check feature-check"></i> Customized diet suggestions</li>
+                        <li><i class="fa-solid fa-check feature-check"></i> Monthly progress tracking</li>
+                    </ul>
+                    <div class="plan-footer">
+                        <a href="#contact" class="btn btn-primary btn-block select-plan-btn" data-plan="Standard Plan">Choose Plan</a>
+                    </div>
+                </div>
+
+                <!-- Premium Plan -->
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3 class="plan-name">Premium Plan</h3>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">3,499</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fa-solid fa-check feature-check"></i> Full gym access</li>
+                        <li><i class="fa-solid fa-check feature-check"></i> Locker & shower support</li>
+                        <li><i class="fa-solid fa-check feature-check"></i> 1-on-1 Personal training</li>
+                        <li><i class="fa-solid fa-check feature-check"></i> Custom workout & diet plan</li>
+                        <li><i class="fa-solid fa-check feature-check"></i> Priority support & consultation</li>
+                    </ul>
+                    <div class="plan-footer">
+                        <a href="#contact" class="btn btn-outline btn-block select-plan-btn" data-plan="Premium Plan">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainer Section -->
+    <section id="trainers" class="trainers-section section-padding bg-dark-secondary">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Meet Our Mentors</span>
+                <h2 class="section-title">Certified Coaches</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="trainers-grid">
+                <!-- Trainer 1 -->
+                <div class="trainer-card">
+                    <div class="trainer-img-container">
+                        <img src="images/trainer_rahul.png" alt="Rahul Sharma - Strength & Conditioning Coach" class="trainer-img">
+                        <div class="trainer-socials">
+                            <a href="#" class="trainer-social"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="trainer-social"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="trainer-social"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3 class="trainer-name">Rahul Sharma</h3>
+                        <span class="trainer-spec">Strength & Conditioning</span>
+                        <p class="trainer-bio">
+                            Rahul has 6+ years of experience transforming lives. He specializes in athletic development, compound lifting, and posture correction.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Trainer 2 -->
+                <div class="trainer-card">
+                    <div class="trainer-img-container">
+                        <img src="images/trainer_priya.png" alt="Priya Patil - Weight Loss Specialist" class="trainer-img">
+                        <div class="trainer-socials">
+                            <a href="#" class="trainer-social"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="trainer-social"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="trainer-social"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3 class="trainer-name">Priya Patil</h3>
+                        <span class="trainer-spec">Weight Loss & Functional Training</span>
+                        <p class="trainer-bio">
+                            Priya is a certified nutritionist and HIIT expert. She helps clients burn fat, tone their body, and build functional cardiovascular endurance.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Trainer 3 -->
+                <div class="trainer-card">
+                    <div class="trainer-img-container">
+                        <img src="images/trainer_amit.png" alt="Amit Verma - Personal Trainer" class="trainer-img">
+                        <div class="trainer-socials">
+                            <a href="#" class="trainer-social"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="trainer-social"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="trainer-social"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3 class="trainer-name">Amit Verma</h3>
+                        <span class="trainer-spec">Personal Training & Muscle Gain</span>
+                        <p class="trainer-bio">
+                            Amit helps individuals pack on muscle mass and build physique symmetry. He combines advanced training techniques with precise diet charts.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Real Results</span>
+                <h2 class="section-title">Success Stories</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="testimonials-grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testimonial-quote">
+                        "FitZone helped me lose 8 kg in 3 months. The trainers are supportive, the environment is amazing, and the equipment is top-notch."
+                    </p>
+                    <div class="testimonial-user">
+                        <div class="testimonial-avatar">
+                            <span class="avatar-letter">V</span>
+                        </div>
+                        <div class="testimonial-meta">
+                            <h4 class="user-name">Vikram Malhotra</h4>
+                            <span class="user-status">IT Consultant</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testimonial-quote">
+                        "I joined for strength training. Rahul corrected my squat posture, and I've increased my deadlift by 30kg. Incredible training program!"
+                    </p>
+                    <div class="testimonial-user">
+                        <div class="testimonial-avatar">
+                            <span class="avatar-letter">A</span>
+                        </div>
+                        <div class="testimonial-meta">
+                            <h4 class="user-name">Anjali Rao</h4>
+                            <span class="user-status">Software Engineer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testimonial-quote">
+                        "The personal training is outstanding. Amit customizes every single workout and diet plan. Highly recommended gym for anyone in Pune!"
+                    </p>
+                    <div class="testimonial-user">
+                        <div class="testimonial-avatar">
+                            <span class="avatar-letter">S</span>
+                        </div>
+                        <div class="testimonial-meta">
+                            <h4 class="user-name">Sandeep Joshi</h4>
+                            <span class="user-status">Entrepreneur</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Enquiry Section -->
+    <section id="contact" class="contact-section section-padding bg-dark-secondary">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Start Today</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact Details -->
+                <div class="contact-info-container">
+                    <h3 class="contact-title font-outfit">Ready to make a change?</h3>
+                    <p class="contact-desc">
+                        Visit us for a tour, send us an email, or contact us directly. Our team is always here to help you begin your journey.
+                    </p>
+
+                    <div class="info-list">
+                        <!-- Phone -->
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="info-details">
+                                <span class="info-label">Call Us</span>
+                                <a href="tel:+919876543210" class="info-value">+91 98765 43210</a>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="info-details">
+                                <span class="info-label">Email Us</span>
+                                <a href="mailto:info@fitzonefitness.com" class="info-value">info@fitzonefitness.com</a>
+                            </div>
+                        </div>
+
+                        <!-- Address -->
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="info-details">
+                                <span class="info-label">Find Us</span>
+                                <span class="info-value">FitZone Fitness Studio, Pune, Maharashtra</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- WhatsApp CTA -->
+                    <div class="whatsapp-cta-box">
+                        <a href="https://wa.me/919876543210?text=Hi%20FitZone,%20I'd%20like%20to%20enquire%20about%20your%20membership%20plans." target="_blank" class="btn btn-whatsapp btn-block">
+                            <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Enquiry Form -->
+                <div class="contact-form-container">
+                    <h3 class="contact-title font-outfit">Book Your Free Trial</h3>
+                    <p class="form-instructions">Fill out the form below to secure your complimentary workout session.</p>
+                    
+                    <form id="enquiryForm" class="enquiry-form">
+                        <div class="form-group">
+                            <label for="fullName" class="form-label">Full Name</label>
+                            <input type="text" id="fullName" class="form-control" placeholder="Enter your full name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phoneNumber" class="form-label">Phone Number</label>
+                            <input type="tel" id="phoneNumber" class="form-control" placeholder="Enter your mobile number" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="fitnessGoal" class="form-label">Fitness Goal</label>
+                            <select id="fitnessGoal" class="form-control" required>
+                                <option value="" disabled selected>Select your goal</option>
+                                <option value="Weight Loss">Weight Loss & Fat Burning</option>
+                                <option value="Strength Training">Strength & Muscle Gain</option>
+                                <option value="Personal Training">Personal Training (1-on-1)</option>
+                                <option value="General Fitness">General Health & Fitness</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="selectedPlan" class="form-label">Preferred Plan (Optional)</label>
+                            <select id="selectedPlan" class="form-control">
+                                <option value="Free Trial" selected>Free Trial Session</option>
+                                <option value="Basic Plan">Basic Plan (₹999/mo)</option>
+                                <option value="Standard Plan">Standard Plan (₹1,999/mo)</option>
+                                <option value="Premium Plan">Premium Plan (₹3,499/mo)</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block btn-submit">
+                            Submit Request
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-wrapper">
+            <div class="footer-brand">
+                <a href="#home" class="logo footer-logo">
+                    <span>FIT</span>ZONE<span class="dot">.</span>
+                </a>
+                <p class="footer-tagline">
+                    Transform your body, build your strength, and live a healthier lifestyle with FitZone.
+                </p>
+                <div class="footer-socials">
+                    <a href="https://wa.me/919876543210" target="_blank" class="social-icon whatsapp-color"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4 class="footer-heading">Quick Links</h4>
+                <ul class="footer-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#plans">Plans</a></li>
+                    <li><a href="#trainers">Trainers</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-services">
+                <h4 class="footer-heading">Our Services</h4>
+                <ul class="footer-nav">
+                    <li><a href="#services">Strength Training</a></li>
+                    <li><a href="#services">Weight Loss Programs</a></li>
+                    <li><a href="#services">Personal Training</a></li>
+                    <li><a href="#services">Group Fitness Classes</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4 class="footer-heading">Contact Info</h4>
+                <ul class="footer-contact-details">
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+919876543210">+91 98765 43210</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:info@fitzonefitness.com">info@fitzonefitness.com</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Pune, Maharashtra</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-wrapper">
+                <p>&copy; 2026 FitZone Fitness Studio. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Form Submission Success Overlay Toast -->
+    <div id="successToast" class="toast">
+        <div class="toast-content">
+            <div class="toast-icon">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <div class="toast-message">
+                <h4 class="toast-title">Success!</h4>
+                <p class="toast-desc">Thank you! Our team will contact you soon.</p>
+            </div>
+            <button class="toast-close" aria-label="Close message">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
